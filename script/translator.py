@@ -568,11 +568,11 @@ class SdcvShell(BaseTranslator):
 
 
 ENGINES = {
-    "baicizhan": BaicizhanTranslator,
+    "iciba": ICibaTranslator,
     "bing": BingDict,
+    "baicizhan": BaicizhanTranslator,
     "haici": HaiciDict,
     "google": GoogleTranslator,
-    "iciba": ICibaTranslator,
     "sdcv": SdcvShell,
     "trans": TranslateShell,
     "youdao": YoudaoTranslator,
